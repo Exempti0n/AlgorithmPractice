@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		68B89F2228D4E1B000EAA223 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B89F2128D4E1B000EAA223 /* main.swift */; };
+		68B89F3928D4F0EC00EAA223 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B89F3828D4F0EC00EAA223 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		68B89F1E28D4E1B000EAA223 /* backJoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = backJoon; sourceTree = BUILT_PRODUCTS_DIR; };
-		68B89F2128D4E1B000EAA223 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		68B89F1E28D4E1B000EAA223 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B89F2128D4E1B000EAA223 /* example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example.swift; sourceTree = "<group>"; };
+		68B89F2828D4E31C00EAA223 /* 1330.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1330.swift; sourceTree = "<group>"; };
+		68B89F2D28D4E3EB00EAA223 /* 9498.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9498.swift; sourceTree = "<group>"; };
+		68B89F2F28D4E4DB00EAA223 /* 2753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2753.swift; sourceTree = "<group>"; };
+		68B89F3128D4E6DC00EAA223 /* 14681.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14681.swift; sourceTree = "<group>"; };
+		68B89F3328D4E8B300EAA223 /* 2884.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2884.swift; sourceTree = "<group>"; };
+		68B89F3528D4EB7F00EAA223 /* CodingTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodingTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		68B89F3628D4EB8000EAA223 /* 2525.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2525.swift; sourceTree = "<group>"; };
+		68B89F3828D4F0EC00EAA223 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +49,7 @@
 		68B89F1528D4E1B000EAA223 = {
 			isa = PBXGroup;
 			children = (
-				68B89F2028D4E1B000EAA223 /* backJoon */,
+				68B89F2028D4E1B000EAA223 /* BOJ */,
 				68B89F1F28D4E1B000EAA223 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +57,33 @@
 		68B89F1F28D4E1B000EAA223 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68B89F1E28D4E1B000EAA223 /* backJoon */,
+				68B89F1E28D4E1B000EAA223 /* CodingTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		68B89F2028D4E1B000EAA223 /* backJoon */ = {
+		68B89F2028D4E1B000EAA223 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
-				68B89F2128D4E1B000EAA223 /* main.swift */,
+				68B89F2128D4E1B000EAA223 /* example.swift */,
+				68B89F2828D4E31C00EAA223 /* 1330.swift */,
+				68B89F2D28D4E3EB00EAA223 /* 9498.swift */,
+				68B89F2F28D4E4DB00EAA223 /* 2753.swift */,
+				68B89F3128D4E6DC00EAA223 /* 14681.swift */,
+				68B89F3328D4E8B300EAA223 /* 2884.swift */,
+				68B89F3628D4EB8000EAA223 /* 2525.swift */,
+				68B89F3828D4F0EC00EAA223 /* main.swift */,
+				68B89F3528D4EB7F00EAA223 /* CodingTest-Bridging-Header.h */,
 			);
-			path = backJoon;
+			path = BOJ;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		68B89F1D28D4E1B000EAA223 /* backJoon */ = {
+		68B89F1D28D4E1B000EAA223 /* CodingTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68B89F2528D4E1B000EAA223 /* Build configuration list for PBXNativeTarget "backJoon" */;
+			buildConfigurationList = 68B89F2528D4E1B000EAA223 /* Build configuration list for PBXNativeTarget "CodingTest" */;
 			buildPhases = (
 				68B89F1A28D4E1B000EAA223 /* Sources */,
 				68B89F1B28D4E1B000EAA223 /* Frameworks */,
@@ -77,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = backJoon;
+			name = CodingTest;
 			productName = backJoon;
-			productReference = 68B89F1E28D4E1B000EAA223 /* backJoon */;
+			productReference = 68B89F1E28D4E1B000EAA223 /* CodingTest */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -94,10 +110,11 @@
 				TargetAttributes = {
 					68B89F1D28D4E1B000EAA223 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
-			buildConfigurationList = 68B89F1928D4E1B000EAA223 /* Build configuration list for PBXProject "backJoon" */;
+			buildConfigurationList = 68B89F1928D4E1B000EAA223 /* Build configuration list for PBXProject "CodingTest" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				68B89F1D28D4E1B000EAA223 /* backJoon */,
+				68B89F1D28D4E1B000EAA223 /* CodingTest */,
 			);
 		};
 /* End PBXProject section */
@@ -120,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68B89F2228D4E1B000EAA223 /* main.swift in Sources */,
+				68B89F3928D4F0EC00EAA223 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,10 +260,18 @@
 		68B89F2628D4E1B000EAA223 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UCK3286RDQ;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BOJ/CodingTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -254,10 +279,17 @@
 		68B89F2728D4E1B000EAA223 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UCK3286RDQ;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BOJ/CodingTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -265,7 +297,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68B89F1928D4E1B000EAA223 /* Build configuration list for PBXProject "backJoon" */ = {
+		68B89F1928D4E1B000EAA223 /* Build configuration list for PBXProject "CodingTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68B89F2328D4E1B000EAA223 /* Debug */,
@@ -274,7 +306,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68B89F2528D4E1B000EAA223 /* Build configuration list for PBXNativeTarget "backJoon" */ = {
+		68B89F2528D4E1B000EAA223 /* Build configuration list for PBXNativeTarget "CodingTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68B89F2628D4E1B000EAA223 /* Debug */,
