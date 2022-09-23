@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		68B89F3928D4F0EC00EAA223 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B89F3828D4F0EC00EAA223 /* main.swift */; };
+		68FA93EA28DE006700FBC63A /* 10952.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FA93E928DDFFE600FBC63A /* 10952.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,7 +32,18 @@
 		68B89F3328D4E8B300EAA223 /* 2884.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2884.swift; sourceTree = "<group>"; };
 		68B89F3528D4EB7F00EAA223 /* CodingTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodingTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		68B89F3628D4EB8000EAA223 /* 2525.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2525.swift; sourceTree = "<group>"; };
-		68B89F3828D4F0EC00EAA223 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		68B89F3828D4F0EC00EAA223 /* 2480.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2480.swift; sourceTree = "<group>"; };
+		68FA93D628DDEBFF00FBC63A /* 2739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2739.swift; sourceTree = "<group>"; };
+		68FA93D828DDED4700FBC63A /* 10950.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10950.swift; sourceTree = "<group>"; };
+		68FA93DA28DDF06400FBC63A /* 8393.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8393.swift; sourceTree = "<group>"; };
+		68FA93DC28DDF1C100FBC63A /* 25304.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25304.swift; sourceTree = "<group>"; };
+		68FA93DE28DDF79B00FBC63A /* 15552.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15552.swift; sourceTree = "<group>"; };
+		68FA93E028DDF97C00FBC63A /* 11021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11021.swift; sourceTree = "<group>"; };
+		68FA93E228DDFA5000FBC63A /* 11022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11022.swift; sourceTree = "<group>"; };
+		68FA93E328DDFAA900FBC63A /* 2438.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2438.swift; sourceTree = "<group>"; };
+		68FA93E528DDFCA200FBC63A /* 2439.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2439.swift; sourceTree = "<group>"; };
+		68FA93E728DDFE6E00FBC63A /* 10871.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10871.swift; sourceTree = "<group>"; };
+		68FA93E928DDFFE600FBC63A /* 10952.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10952.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +83,18 @@
 				68B89F3128D4E6DC00EAA223 /* 14681.swift */,
 				68B89F3328D4E8B300EAA223 /* 2884.swift */,
 				68B89F3628D4EB8000EAA223 /* 2525.swift */,
-				68B89F3828D4F0EC00EAA223 /* main.swift */,
+				68B89F3828D4F0EC00EAA223 /* 2480.swift */,
+				68FA93D628DDEBFF00FBC63A /* 2739.swift */,
+				68FA93D828DDED4700FBC63A /* 10950.swift */,
+				68FA93DA28DDF06400FBC63A /* 8393.swift */,
+				68FA93DC28DDF1C100FBC63A /* 25304.swift */,
+				68FA93DE28DDF79B00FBC63A /* 15552.swift */,
+				68FA93E028DDF97C00FBC63A /* 11021.swift */,
+				68FA93E228DDFA5000FBC63A /* 11022.swift */,
+				68FA93E328DDFAA900FBC63A /* 2438.swift */,
+				68FA93E528DDFCA200FBC63A /* 2439.swift */,
+				68FA93E728DDFE6E00FBC63A /* 10871.swift */,
+				68FA93E928DDFFE600FBC63A /* 10952.swift */,
 				68B89F3528D4EB7F00EAA223 /* CodingTest-Bridging-Header.h */,
 			);
 			path = BOJ;
@@ -137,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68B89F3928D4F0EC00EAA223 /* main.swift in Sources */,
+				68FA93EA28DE006700FBC63A /* 10952.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
