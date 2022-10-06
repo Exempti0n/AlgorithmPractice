@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		68A680D228EB1E7400375625 /* 5622.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5622.swift; sourceTree = "<group>"; };
 		68A680D328EDC0EA00375625 /* 2941.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2941.swift; sourceTree = "<group>"; };
+		68A680D528EF182C00375625 /* 1316.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1316.swift; sourceTree = "<group>"; };
 		68B89F1E28D4E1B000EAA223 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B89F2128D4E1B000EAA223 /* example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example.swift; sourceTree = "<group>"; };
 		68B89F2828D4E31C00EAA223 /* 1330.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1330.swift; sourceTree = "<group>"; };
@@ -133,6 +134,7 @@
 				68FA940B28E9D4EC00FBC63A /* 2908.swift */,
 				68A680D228EB1E7400375625 /* 5622.swift */,
 				68A680D328EDC0EA00375625 /* 2941.swift */,
+				68A680D528EF182C00375625 /* 1316.swift */,
 				68B89F3528D4EB7F00EAA223 /* CodingTest-Bridging-Header.h */,
 			);
 			path = BOJ;
