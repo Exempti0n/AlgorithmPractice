@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6841F22528FC3FEE00F56FCC /* 2775.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6841F22428FC3CDC00F56FCC /* 2775.swift */; };
 		68A680DB28FB30C400375625 /* 10250.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A680DA28FB2F9E00375625 /* 10250.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6841F22428FC3CDC00F56FCC /* 2775.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2775.swift; sourceTree = "<group>"; };
 		68A680D228EB1E7400375625 /* 5622.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5622.swift; sourceTree = "<group>"; };
 		68A680D328EDC0EA00375625 /* 2941.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2941.swift; sourceTree = "<group>"; };
 		68A680D528EF182C00375625 /* 1316.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1316.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				68A680D828F4560C00375625 /* 1193.swift */,
 				68A680D928FA7BDE00375625 /* 2869.swift */,
 				68A680DA28FB2F9E00375625 /* 10250.swift */,
+				6841F22428FC3CDC00F56FCC /* 2775.swift */,
 				68B89F3528D4EB7F00EAA223 /* CodingTest-Bridging-Header.h */,
 			);
 			path = BOJ;
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6841F22528FC3FEE00F56FCC /* 2775.swift in Sources */,
 				68A680DB28FB30C400375625 /* 10250.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
