@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6841F22528FC3FEE00F56FCC /* 2775.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6841F22428FC3CDC00F56FCC /* 2775.swift */; };
 		68A680DB28FB30C400375625 /* 10250.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A680DA28FB2F9E00375625 /* 10250.swift */; };
+		68C2850C290E3D67001DBC9E /* 2839.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2850B290E3D67001DBC9E /* 2839.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		68B89F3528D4EB7F00EAA223 /* CodingTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodingTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		68B89F3628D4EB8000EAA223 /* 2525.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2525.swift; sourceTree = "<group>"; };
 		68B89F3828D4F0EC00EAA223 /* 2480.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2480.swift; sourceTree = "<group>"; };
+		68C2850B290E3D67001DBC9E /* 2839.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2839.swift; sourceTree = "<group>"; };
 		68FA93D628DDEBFF00FBC63A /* 2739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2739.swift; sourceTree = "<group>"; };
 		68FA93D828DDED4700FBC63A /* 10950.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10950.swift; sourceTree = "<group>"; };
 		68FA93DA28DDF06400FBC63A /* 8393.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8393.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				68A680D928FA7BDE00375625 /* 2869.swift */,
 				68A680DA28FB2F9E00375625 /* 10250.swift */,
 				6841F22428FC3CDC00F56FCC /* 2775.swift */,
+				68C2850B290E3D67001DBC9E /* 2839.swift */,
 				68B89F3528D4EB7F00EAA223 /* CodingTest-Bridging-Header.h */,
 			);
 			path = BOJ;
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C2850C290E3D67001DBC9E /* 2839.swift in Sources */,
 				6841F22528FC3FEE00F56FCC /* 2775.swift in Sources */,
 				68A680DB28FB30C400375625 /* 10250.swift in Sources */,
 			);
